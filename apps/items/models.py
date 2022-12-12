@@ -1,3 +1,4 @@
+from fastapi import FastAPI
 from sqlalchemy import Column, Integer, String
 from database import base
 
@@ -15,4 +16,5 @@ lass item_table():
 
     id = Column(Integer)
     name = Column(String)
-    user = Column(String)    
+    user = Column(String)  
+
